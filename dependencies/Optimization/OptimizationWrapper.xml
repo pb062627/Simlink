@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Nini>
+  <Section Name="BORG">
+    <Key Name="evals" Value="10" />
+    <Key Name="checkfreq" Value="5" />
+    <Key Name="epsilon" Value="0.01"/>
+    <Key Name="numvar" Value="10" />
+    <Key Name="numobj" Value="2" />
+    <Key Name="numconstr" Value="10" />
+    <Key Name="otherKey" Value="otherValue" />
+	<Key Name="opt_log_file_location" Value="C:\temp"/>
+  </Section>
+
+  <Section Name="CH2M_GA">
+    <Key Name="path" Value="c:\c\MyExcel.xlsm"/>
+    <Key Name="inputsheet" Value="NotScenario"/>
+    <Key Name="init" Value="Initialize"/>
+    <Key Name="exe" Value="RunMacro"/>
+    <Key Name="whendone" Value="RunWhenComplete"/>
+    <Key Name="stop_loops" Value="-1"/>
+    <Key Name="stop_time" Value="86400"/>
+    <Key Name="stop_tolerance_percent" Value="-1"/>
+    <Key Name="population_size" Value="100"/>
+    <Key Name="elite_parents" Value="2"/>
+    <Key Name="mutation_rate" Value="0.08"/>
+    <Key Name="mutation_is_elite" Value="0.25"/>
+    <Key Name="File Name" Value="optLog.log"/>
+    <Key Name="MessageColumns" Value="5"/>
+    <Key Name="MaxFileSize" Value="40000000000000"/>
+	<Key Name="opt_log_file_location" Value="C:\temp"/>
+	<Key Name="checkpoint_duration" Value="300"/>
+	<Key Name="checkpoint_generations" Value="10"/>
+	<Key Name="checkpoint_type" Value="duration"/>
+	<Key Name="checkpoint_directorylocation" Value="C:\Temp"/>
+  </Section>
+  <Section Name="CH2M_SFLA">
+    <Key Name="stop_loops" Value="-1"/>
+    <Key Name="stop_time" Value="86400"/>
+    <Key Name="stop_tolerance_percent" Value="-1"/>
+    <Key Name="population_size" Value="100"/>
+    <Key Name="max_jump_fraction" Value=".5"/>
+    <Key Name="memeplex_quantity" Value="10"/>
+    <Key Name="memeplex_size" Value="10"/>
+    <Key Name="submemeplex_size" Value="5"/>
+    <Key Name="memeplex_evolutions" Value="3"/>
+    <Key Name="File Name" Value="optLog.log"/>
+    <Key Name="MessageColumns" Value="5"/>
+    <Key Name="MaxFileSize" Value="40000000000000"/>
+	<Key Name="opt_log_file_location" Value="C:\temp"/>
+	<Key Name="checkpoint_duration" Value="300"/>
+	<Key Name="checkpoint_generations" Value="10"/>
+	<Key Name="checkpoint_type" Value="duration"/>
+	<Key Name="checkpoint_directorylocation" Value="C:\Temp"/>
+  </Section>
+  <Section Name="Halcrow_GA">
+    <Key Name="crossover" Value=".5"/>
+    <Key Name="mutation" Value=".08"/>
+    <Key Name="population" Value="100"/>
+    <Key Name="duration" Value="1000"/>
+	<Key Name="ismaximize" Value="false"/>
+	<Key Name="opt_log_file_location" Value="C:\temp"/>
+	<Key Name="checkpoint_duration" Value="300"/>
+	<Key Name="checkpoint_generations" Value="10"/>
+	<Key Name="checkpoint_type" Value="duration"/>
+	<Key Name="checkpoint_directorylocation" Value="C:\Temp"/>
+  </Section>
+  <Section Name="JMetal">
+    <Key Name="File Name" Value="optLog.log"/>
+    <Key Name="MessageColumns" Value="5"/>
+    <Key Name="MaxFileSize" Value="40000000000000"/>
+	<Key Name="opt_log_file_location" Value="C:\temp"/>
+  </Section>
+    <Section Name="GoogleORTools_LP">
+    <Key Name="subLPAlgorithm" Value="2"/>
+	<Key Name="ismaximize" Value="false"/>
+	<Key Name="opt_log_file_location" Value="C:\temp"/>
+  </Section>
+    <Section Name="GeneticSharp_GA">
+	<Key Name="stop_loops" Value="10000"/>
+    <Key Name="population" Value="100"/>
+	<Key Name="minpopulation" Value="20"/>
+    <Key Name="ismaximize" Value="false"/>
+	<Key Name="usesmartthreading" Value="false"/>
+	<Key Name="maxnumberthreads" Value="50"/>
+	<Key Name="minnumberthreads" Value="25"/>
+	<Key Name="crossovermethod" Value="uniformcrossover"/> <!-- Options here include OnePointCrossOver, TwoPointCrossOver, ThreeParentCrossover, UniformCrossover-->
+	<Key Name="crossovermethodprobability" Value="0.5"/> <!-- only needed for uniform method-->
+	<Key Name="crossover" Value=".5"/>
+    <Key Name="mutation" Value=".08"/>
+	<Key Name="opt_log_file_location" Value="C:\temp"/>
+	<Key Name="checkpoint_duration" Value="300"/>
+	<Key Name="checkpoint_generations" Value="10"/>
+	<Key Name="checkpoint_type" Value="duration"/>
+	<Key Name="checkpoint_directorylocation" Value="C:\Temp"/>
+  </Section>
+</Nini>
