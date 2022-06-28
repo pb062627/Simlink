@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Nini>
+<Section Name="simlink">
+	<Key Name="algo" Value="Halcrow_GA"/>
+	<!--Key Name="db_location" Value="Server = PHLGKRGCP1\SQLExpress; Database = Simlink_EPANETDemo1; Trusted_Connection = True;"/-->
+	<Key Name="db_location" Value="\\phlfpp01\Users\sp017586\CityOfTracey\CityOfTracey_simlink.mdb"/>
+	<Key Name="run_type" Value="Optimization"/>
+	<!--Key Name="startingpopulation" Value="1,7,7,7,4,6,2,2,2,2,2,2,3,7,3,2,3,6"/-->
+	<Key Name="startingpopulation" Value=" 1,4,5,4,2,4,3,3,2,2,2,2,3,7,3,2,3,5"/>
+	<Key Name="evaluationgroup" Value="55"/>
+	<Key Name="type" Value="epanet"/>
+	<Key Name="log" Value="1"/>
+</Section>
+  <Section Name="OPT">
+	<Key Name="crossover" Value="0.6"/>
+    <Key Name="mutation" Value="0.07"/>
+    <Key Name="population" Value="50"/>
+    <Key Name="duration" Value="700600"/>
+	<Key Name="checkpoint_duration" Value="600"/>
+	<Key Name="checkpoint_generations" Value="10"/>
+	<Key Name="checkpoint_type" Value="duration"/>
+	<Key Name="checkpoint_directorylocation" Value="C:\Users\sp017586\Documents\Simlink\Simlink_Tracey1_HalcrowGA\CheckPointFiles"/>
+  </Section>
+  </Nini>

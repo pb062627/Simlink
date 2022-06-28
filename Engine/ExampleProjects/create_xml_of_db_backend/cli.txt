@@ -1,0 +1,1 @@
+-export_schema_to_xml -config \\HCHFPP01\groups\WBG\Optimization\SimLink\code\simlink\Engine\ExampleProjects\create_xml_of_db_backend\config.xml

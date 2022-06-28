@@ -1,0 +1,227 @@
+<NewDataSet>
+  <result_ts>
+    <ResultTS_ID>5739</ResultTS_ID>
+    <Result_Label>28309008 FLOW</Result_Label>
+    <ElementIndex>-1</ElementIndex>
+    <ResultIndex>4</ResultIndex>
+    <FeatureType>Node</FeatureType>
+    <FieldLabel>Total Inflow</FieldLabel>
+    <VarResultType_FK>80</VarResultType_FK>
+    <Element_Label>28309008</Element_Label>
+    <ts_code>1</ts_code>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5740</ResultTS_ID>
+    <Result_Label>29509047-OUT-012 FLOW</Result_Label>
+    <ElementIndex>-1</ElementIndex>
+    <ResultIndex>4</ResultIndex>
+    <FeatureType>Node</FeatureType>
+    <FieldLabel>Total Inflow</FieldLabel>
+    <VarResultType_FK>80</VarResultType_FK>
+    <Element_Label>29509047-OUT-012</Element_Label>
+    <ts_code>1</ts_code>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5741</ResultTS_ID>
+    <Result_Label>29509048 FLOW</Result_Label>
+    <ElementIndex>-1</ElementIndex>
+    <ResultIndex>4</ResultIndex>
+    <FeatureType>Node</FeatureType>
+    <FieldLabel>Total Inflow</FieldLabel>
+    <VarResultType_FK>80</VarResultType_FK>
+    <Element_Label>29509048</Element_Label>
+    <ts_code>1</ts_code>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5742</ResultTS_ID>
+    <Result_Label>33503086 FLOW</Result_Label>
+    <ElementIndex>-1</ElementIndex>
+    <ResultIndex>4</ResultIndex>
+    <FeatureType>Node</FeatureType>
+    <FieldLabel>Total Inflow</FieldLabel>
+    <VarResultType_FK>80</VarResultType_FK>
+    <Element_Label>33503086</Element_Label>
+    <ts_code>1</ts_code>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5743</ResultTS_ID>
+    <Result_Label>33503103 FLOW</Result_Label>
+    <ElementIndex>-1</ElementIndex>
+    <ResultIndex>4</ResultIndex>
+    <FeatureType>Node</FeatureType>
+    <FieldLabel>Total Inflow</FieldLabel>
+    <VarResultType_FK>80</VarResultType_FK>
+    <Element_Label>33503103</Element_Label>
+    <ts_code>1</ts_code>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5744</ResultTS_ID>
+    <Result_Label>34115025 FLOW</Result_Label>
+    <ElementIndex>-1</ElementIndex>
+    <ResultIndex>4</ResultIndex>
+    <FeatureType>Node</FeatureType>
+    <FieldLabel>Total Inflow</FieldLabel>
+    <VarResultType_FK>80</VarResultType_FK>
+    <Element_Label>34115025</Element_Label>
+    <ts_code>1</ts_code>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5745</ResultTS_ID>
+    <Result_Label>34115030-OUT-483 FLOW</Result_Label>
+    <ElementIndex>-1</ElementIndex>
+    <ResultIndex>4</ResultIndex>
+    <FeatureType>Node</FeatureType>
+    <FieldLabel>Total Inflow</FieldLabel>
+    <VarResultType_FK>80</VarResultType_FK>
+    <Element_Label>34115030-OUT-483</Element_Label>
+    <ts_code>1</ts_code>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5746</ResultTS_ID>
+    <Result_Label>37501009 FLOW</Result_Label>
+    <ElementIndex>-1</ElementIndex>
+    <ResultIndex>4</ResultIndex>
+    <FeatureType>Node</FeatureType>
+    <FieldLabel>Total Inflow</FieldLabel>
+    <VarResultType_FK>80</VarResultType_FK>
+    <Element_Label>37501009</Element_Label>
+    <ts_code>1</ts_code>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5747</ResultTS_ID>
+    <Result_Label>37502028-OUT-458 FLOW</Result_Label>
+    <ElementIndex>-1</ElementIndex>
+    <ResultIndex>4</ResultIndex>
+    <FeatureType>Node</FeatureType>
+    <FieldLabel>Total Inflow</FieldLabel>
+    <VarResultType_FK>80</VarResultType_FK>
+    <Element_Label>37502028-OUT-458</Element_Label>
+    <ts_code>1</ts_code>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5748</ResultTS_ID>
+    <Result_Label>CSO12_Level_dummy FLOW</Result_Label>
+    <ElementIndex>-1</ElementIndex>
+    <ResultIndex>4</ResultIndex>
+    <FeatureType>Node</FeatureType>
+    <FieldLabel>Total Inflow</FieldLabel>
+    <VarResultType_FK>80</VarResultType_FK>
+    <Element_Label>CSO12_Level_dummy</Element_Label>
+    <ts_code>1</ts_code>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5749</ResultTS_ID>
+    <Result_Label>CSO130_Level_dummy FLOW</Result_Label>
+    <ElementIndex>-1</ElementIndex>
+    <ResultIndex>4</ResultIndex>
+    <FeatureType>Node</FeatureType>
+    <FieldLabel>Total Inflow</FieldLabel>
+    <VarResultType_FK>80</VarResultType_FK>
+    <Element_Label>CSO130_Level_dummy</Element_Label>
+    <ts_code>1</ts_code>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5750</ResultTS_ID>
+    <Result_Label>CSO458_Level_dummy FLOW</Result_Label>
+    <ElementIndex>-1</ElementIndex>
+    <ResultIndex>4</ResultIndex>
+    <FeatureType>Node</FeatureType>
+    <FieldLabel>Total Inflow</FieldLabel>
+    <VarResultType_FK>80</VarResultType_FK>
+    <Element_Label>CSO458_Level_dummy</Element_Label>
+    <ts_code>1</ts_code>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5751</ResultTS_ID>
+    <Result_Label>CSO458_Level_dummy FLOW</Result_Label>
+    <ElementIndex>-1</ElementIndex>
+    <ResultIndex>4</ResultIndex>
+    <FeatureType>Node</FeatureType>
+    <FieldLabel>Total Inflow</FieldLabel>
+    <VarResultType_FK>80</VarResultType_FK>
+    <Element_Label>CSO458_Level_dummy</Element_Label>
+    <ts_code>1</ts_code>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5752</ResultTS_ID>
+    <Result_Label>CSO483_Level_dummy FLOW</Result_Label>
+    <ElementIndex>-1</ElementIndex>
+    <ResultIndex>4</ResultIndex>
+    <FeatureType>Node</FeatureType>
+    <FieldLabel>Total Inflow</FieldLabel>
+    <VarResultType_FK>80</VarResultType_FK>
+    <Element_Label>CSO483_Level_dummy</Element_Label>
+    <ts_code>1</ts_code>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5753</ResultTS_ID>
+    <Result_Label>WFC_CC1 FLOW</Result_Label>
+    <ElementIndex>-1</ElementIndex>
+    <ResultIndex>4</ResultIndex>
+    <FeatureType>Node</FeatureType>
+    <FieldLabel>Total Inflow</FieldLabel>
+    <VarResultType_FK>80</VarResultType_FK>
+    <Element_Label>WFC_CC1</Element_Label>
+    <ts_code>1</ts_code>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5754</ResultTS_ID>
+    <Result_Label>CSO-012 EXT Level Boundary</Result_Label>
+    <ts_code>3</ts_code>
+    <SQN>100</SQN>
+    <FunctionArgs />
+    <RefTS_ID_FK>-1</RefTS_ID_FK>
+    <FunctionID_FK>-1</FunctionID_FK>
+    <BeginPeriodNo>1</BeginPeriodNo>
+    <AuxRetrieveCode>3</AuxRetrieveCode>
+    <AuxID_FK>1</AuxID_FK>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5755</ResultTS_ID>
+    <Result_Label>CSO-030 EXT Level Boundary</Result_Label>
+    <ts_code>3</ts_code>
+    <SQN>100</SQN>
+    <FunctionArgs />
+    <RefTS_ID_FK>-1</RefTS_ID_FK>
+    <FunctionID_FK>-1</FunctionID_FK>
+    <BeginPeriodNo>1</BeginPeriodNo>
+    <AuxRetrieveCode>3</AuxRetrieveCode>
+    <AuxID_FK>2</AuxID_FK>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5756</ResultTS_ID>
+    <Result_Label>CSO-458 EXT Level Boundary</Result_Label>
+    <ts_code>3</ts_code>
+    <SQN>100</SQN>
+    <FunctionArgs />
+    <RefTS_ID_FK>-1</RefTS_ID_FK>
+    <FunctionID_FK>-1</FunctionID_FK>
+    <BeginPeriodNo>2</BeginPeriodNo>
+    <AuxRetrieveCode>3</AuxRetrieveCode>
+    <AuxID_FK>3</AuxID_FK>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5757</ResultTS_ID>
+    <Result_Label>CSO-461 EXT Level Boundary</Result_Label>
+    <ts_code>3</ts_code>
+    <SQN>100</SQN>
+    <FunctionArgs />
+    <RefTS_ID_FK>-1</RefTS_ID_FK>
+    <FunctionID_FK>-1</FunctionID_FK>
+    <BeginPeriodNo>3</BeginPeriodNo>
+    <AuxRetrieveCode>3</AuxRetrieveCode>
+    <AuxID_FK>4</AuxID_FK>
+  </result_ts>
+  <result_ts>
+    <ResultTS_ID>5758</ResultTS_ID>
+    <Result_Label>CSO-483 EXT Level Boundary</Result_Label>
+    <ts_code>3</ts_code>
+    <SQN>100</SQN>
+    <FunctionArgs />
+    <RefTS_ID_FK>-1</RefTS_ID_FK>
+    <FunctionID_FK>-1</FunctionID_FK>
+    <BeginPeriodNo>4</BeginPeriodNo>
+    <AuxRetrieveCode>3</AuxRetrieveCode>
+    <AuxID_FK>5</AuxID_FK>
+  </result_ts>
+</NewDataSet>

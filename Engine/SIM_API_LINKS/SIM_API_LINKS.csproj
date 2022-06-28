@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79206E74-325E-48DD-A070-D604ACBAA077}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SIM_API_LINKS</RootNamespace>
+    <AssemblyName>SIM_API_LINKS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\DEBUG_SIMLINK\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\DEBUG_SIMLINK\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="borg_wrap, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dependencies\Optimization\borg_wrap.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.InfoWorksLib">
+      <HintPath>..\..\dependencies\Infoworks\Interop.InfoWorksLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.interop.access.dao, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Nini, Version=1.1.0.0, Culture=neutral, PublicKeyToken=cee9083a981b0992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dependencies\hpc\Nini.dll</HintPath>
+    </Reference>
+    <Reference Include="Optimization">
+      <HintPath>..\..\dependencies\Optimization\Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="OptimizationWrapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\optwrapper\OptimizationWrapper\bin\Debug\OptimizationWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Simlink_HPC">
+      <HintPath>..\..\dependencies\hpc\Simlink_HPC.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonUtilities.cs" />
+    <Compile Include="DAL\DBContext.cs" />
+    <Compile Include="DAL\Oledb_Maintenance.cs" />
+    <Compile Include="DbVersionValidation.cs" />
+    <Compile Include="enum.cs" />
+    <Compile Include="EnumHelper.cs" />
+    <Compile Include="icm.cs" />
+    <Compile Include="vissim_link.cs" />
+    <Compile Include="epanet_link.cs" />
+    <Compile Include="excel_wrap.cs" />
+    <Compile Include="extend_link.cs" />
+    <Compile Include="isis2D_link.cs" />
+    <Compile Include="iw.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modflow_link.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Project.cs" />
+    <Compile Include="PROJ_WRAPPERS\ProjectSpecificWrapper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="realtime.cs" />
+    <Compile Include="simlink.cs" />
+    <Compile Include="simlinkCLONE.cs" />
+    <Compile Include="simlinkFAKE.cs" />
+    <Compile Include="simlinkHash.cs" />
+    <Compile Include="simlinkHPC.cs" />
+    <Compile Include="simlinkMU_Parse.cs" />
+    <Compile Include="simlinkRealTime.cs" />
+    <Compile Include="simlinkScenario.cs" />
+    <Compile Include="simlinkUI.cs" />
+    <Compile Include="swmm5022_link.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="template_link.cs" />
+    <Compile Include="testing.cs" />
+    <Compile Include="XModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\icm_bin\ICM_BinaryFileReader\ICM_BinaryFileReader.csproj">
+      <Project>{467b500a-027f-49ca-bf5f-5969cb864a40}</Project>
+      <Name>ICM_BinaryFileReader</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\cost_master_wrap\cost_master_wrap.csproj">
+      <Project>{14050b9d-f35d-43bc-978b-cd9f77fa81df}</Project>
+      <Name>cost_master_wrap</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ModelWrappers\ExtendSimWrapper\ExtendSimWrapper.csproj">
+      <Project>{026fc9c1-14b0-46e0-9e4c-c4a6b429b6af}</Project>
+      <Name>ExtendSimWrapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ModelWrappers\VissimWrapper\VissimWrapper.csproj">
+      <Project>{ba0f84f3-2914-4681-992e-dc9da1b0c5d3}</Project>
+      <Name>VissimWrapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CirrusHTC\CirrusHTC.csproj">
+      <Project>{e8e839a9-73a2-45d1-8e28-377dea6c0667}</Project>
+      <Name>CirrusHTC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\dssutl_wrap\dssutl_wrap.csproj">
+      <Project>{f085d3e6-da25-4202-8147-7297a779abfd}</Project>
+      <Name>dssutl_wrap</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExternalData\ExternalData.csproj">
+      <Project>{da13175f-d87d-48ff-84dd-a68025d29eac}</Project>
+      <Name>ExternalData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logging\Logging.csproj">
+      <Project>{b6d91ca1-9949-491c-9f4e-5befcda1fa2a}</Project>
+      <Name>Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\muParser_csharp\muParser_csharp.csproj">
+      <Project>{a8a4c4f7-f9d2-4232-8fdc-581949bd733f}</Project>
+      <Name>muParser_csharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TimeSeries\TimeSeries.csproj">
+      <Project>{c7852eb3-ba98-4da0-9b44-06413b905dd3}</Project>
+      <Name>TimeSeries</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

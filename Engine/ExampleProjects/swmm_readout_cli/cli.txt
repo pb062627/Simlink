@@ -1,0 +1,1 @@
+-read_out 72 -scen 14635 -arraylike -file C:\d\14635\Mill Creek_TY_1of4_rmPolygon_rmVertices_2yr_bit_14635.inp -config \\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\Engine\ExampleProjects\swmm_readout_cli\readout_config_chc_sqlserver.xml

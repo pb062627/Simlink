@@ -1,0 +1,52 @@
+<NewDataSet>
+  <external_data_request>
+    <ID>1</ID>
+    <label>cso-012 level</label>
+    <source_code>0</source_code>
+    <return_format_code>1</return_format_code>
+    <EvalID_FK>2</EvalID_FK>
+    <conn_string>Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Mason\Documents\WORK\MSD_Cinci\analysis\simlink\scada\scada_simulator.accdb</conn_string>
+    <kwargs>SELECT  val FROM tblRecords WHERE ((((Timestamp)&gt;=@p1) and ((Timestamp)&lt;=@p2)) AND ((ElementName)='CSO-012'))</kwargs>
+    <db_type>0</db_type>
+  </external_data_request>
+  <external_data_request>
+    <ID>2</ID>
+    <label>cso-030 level</label>
+    <source_code>0</source_code>
+    <return_format_code>1</return_format_code>
+    <EvalID_FK>2</EvalID_FK>
+    <conn_string>Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Mason\Documents\WORK\MSD_Cinci\analysis\simlink\scada\scada_simulator.accdb</conn_string>
+    <kwargs>SELECT  val FROM tblRecords WHERE ((((Timestamp)&gt;=@p1) and ((Timestamp)&lt;=@p2)) AND ((ElementName)='CSO-130'))</kwargs>
+    <db_type>0</db_type>
+  </external_data_request>
+  <external_data_request>
+    <ID>3</ID>
+    <label>cso-458 level</label>
+    <source_code>0</source_code>
+    <return_format_code>1</return_format_code>
+    <EvalID_FK>2</EvalID_FK>
+    <conn_string>Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Mason\Documents\WORK\MSD_Cinci\analysis\simlink\scada\scada_simulator.accdb</conn_string>
+    <kwargs>SELECT  val FROM tblRecords WHERE ((((Timestamp)&gt;=@p1) and ((Timestamp)&lt;=@p2)) AND ((ElementName)='CSO-130'))</kwargs>
+    <db_type>0</db_type>
+  </external_data_request>
+  <external_data_request>
+    <ID>4</ID>
+    <label>cso-461 level</label>
+    <source_code>0</source_code>
+    <return_format_code>1</return_format_code>
+    <EvalID_FK>2</EvalID_FK>
+    <conn_string>Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Mason\Documents\WORK\MSD_Cinci\analysis\simlink\scada\scada_simulator.accdb</conn_string>
+    <kwargs>SELECT  val FROM tblRecords WHERE ((((Timestamp)&gt;=@p1) and ((Timestamp)&lt;=@p2)) AND ((ElementName)='CSO-130'))</kwargs>
+    <db_type>0</db_type>
+  </external_data_request>
+  <external_data_request>
+    <ID>5</ID>
+    <label>cso-483 level</label>
+    <source_code>0</source_code>
+    <return_format_code>1</return_format_code>
+    <EvalID_FK>2</EvalID_FK>
+    <conn_string>Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Mason\Documents\WORK\MSD_Cinci\analysis\simlink\scada\scada_simulator.accdb</conn_string>
+    <kwargs>SELECT  val FROM tblRecords WHERE ((((Timestamp)&gt;=@p1) and ((Timestamp)&lt;=@p2)) AND ((ElementName)='CSO-130'))</kwargs>
+    <db_type>0</db_type>
+  </external_data_request>
+</NewDataSet>

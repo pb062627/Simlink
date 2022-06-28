@@ -1,0 +1,7 @@
+C:\Users\Mason\Documents\Visual Studio 2013\Projects\TESTING\muParse04\example_csharp\bin\Debug\example_csharp.exe
+C:\Users\Mason\Documents\Visual Studio 2013\Projects\TESTING\muParse04\example_csharp\bin\Debug\example_csharp.pdb
+C:\Users\Mason\Documents\Visual Studio 2013\Projects\TESTING\muParse04\example_csharp\obj\Debug\muWrapper.WndSample.resources
+C:\Users\Mason\Documents\Visual Studio 2013\Projects\TESTING\muParse04\example_csharp\obj\Debug\muWrapper.Properties.Resources.resources
+C:\Users\Mason\Documents\Visual Studio 2013\Projects\TESTING\muParse04\example_csharp\obj\Debug\example_csharp.csproj.GenerateResource.Cache
+C:\Users\Mason\Documents\Visual Studio 2013\Projects\TESTING\muParse04\example_csharp\obj\Debug\example_csharp.exe
+C:\Users\Mason\Documents\Visual Studio 2013\Projects\TESTING\muParse04\example_csharp\obj\Debug\example_csharp.pdb

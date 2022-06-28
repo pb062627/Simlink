@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Nini>
+<Section Name="simlink">
+	<Key Name="db_location" Value="C:\Users\sp017586\Documents\NOLA\simlink_millCreek_GMT_NOLA.accdb"/>
+	<Key Name="run_type" Value="UserDefinedRuns"/>
+	<Key Name="evaluationgroup" Value="203"/>
+	<Key Name="type" Value="swmm"/>
+	<Key Name="WriteEGToDSSLocation" Value="C:\Users\sp017586\Documents\NOLA\NOLA.dss"/>
+	<Key Name="log" Value="3"/>
+</Section>
+  <Section Name="Environment">
+     <Key Name="ComputeHost" Value="Local" />    <!-- Valid values include: Local, AWS, Condor-->
+     <Key Name="CondorRequirements" Value="hasSWMM" /> 
+     <Key Name="transfer_input_files" Value="standard" />  <!--options: all,tuple of extensions (not implemented), or "standard" (typical, as defined in process scenario)-->
+    <!-- met: include platform specific _dictHPC overrides here?  -->
+    </Section>
+</Nini>

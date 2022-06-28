@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Nini>
+  <Section Name="FireFlowConversion">
+	<Key Name="ffpatternpreffix" Value="FireFlowPattern_"/>
+	<Key Name="ffanalysishour" Value="9"/>
+    <Key Name="ffnodesanddemands" Value="{147, 1000}^{129, 3000}"/>
+  </Section>
+  </Nini>

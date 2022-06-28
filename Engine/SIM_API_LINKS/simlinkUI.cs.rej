@@ -1,0 +1,20 @@
+diff a/Engine/SIM_API_LINKS/simlinkUI.cs b/Engine/SIM_API_LINKS/simlinkUI.cs	(rejected hunks)
+@@ -1198,9 +1198,17 @@
+             dt.AcceptChanges();
+             return dt;
+         }
++
++
+         public DataTable GetPFTypeLookUp()
+         {
+-            string[] astrVal = "Cost,Performance".Split(',');
++            //SP 12-Feb-2016 Changed to lookup from tblPerformance_Grouping in database
++            //TODO Requires a change to UI which hard codes in the headings - need to confirm this goes through to the DB
++            string strSQL = "SELECT PF_GroupID as PerfTypeID, Label as PerfTypeName FROM tblPerformance_Grouping where IsObjective = FALSE";
++            return _dbContext.getDataSetfromSQL(strSQL).Tables[0];
++
++            //This was the original hard coding
++            /*string[] astrVal = "Cost,Performance".Split(',');
+             string[] astrValID = "1,2".Split(',');
+             DataTable dt = new DataTable();
+             dt.Columns.Add("PF_TypeID", typeof(int));

@@ -1,0 +1,13 @@
+
+
+****************************************************************
+<------      DB Version validation failed       ------>
+(Script 000124) - Warning Only! Indeterminate whether executed on this database
+(Script 000134) - missing tlkpModelAttribute; missing tlkpModelAttributeSection; missing tlkpModelType;
+
+****************************************************************
+
+
+****************************************************************
+<-----           Simlink initialized model type SWMM        ----->
+****************************************************************

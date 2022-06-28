@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Nini>
+<Section Name="simlink">
+	<Key Name="db_location" Value="\\hchfpp01\Groups\WBG\Germantown\analysis\Simlink\simlink_millCreek_GMT.accdb"/>
+	<Key Name="run_type" Value="UserDefinedRuns"/>
+	<Key Name="evaluationgroup" Value="206"/>
+	<Key Name="scenarios" Value="21473,21474"/>
+	<Key Name="type" Value="swmm"/>
+</Section>
+  </Nini>

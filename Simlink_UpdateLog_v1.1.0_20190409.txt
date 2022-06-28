@@ -1,0 +1,12 @@
+Simlink was built 4/9/2019 with some modifiations to be able to run with an optimization algorithm.
+The optimization functionality was failing to run previously because somehow the optimization object was not getting initialized.
+Both Simlink and OptWrap depend on Nini.dll, however different versions of Nini.dll made it diffficult for these to talk.
+This has happened before, and I don't recall the resolution.
+
+In this case, I stripped out all the Nini.dll references and made sure they were all using the same library.
+	There was still an issue, but I got it to work.
+
+Other issues:
+-Halcrow GA is not finding some configurable file (OptimizationWrapper.xml?) that provides opportunity to set its algo params.
+This is not a big deal unless you are fine tuning algorithms, which we are not.
+

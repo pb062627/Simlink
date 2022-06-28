@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Nini>
+<Section Name="simlink">
+	<Key Name="db_type" Value = "0"/>
+	<Key Name="db_location" Value="\\hchfpp01\Groups\WBG\MillCreek\Analysis\SimLink\simlink_millCreek.accdb"/>    <!-- simlink lite file dir -->
+	<Key Name="run_type" Value="realtime"/>
+	<Key Name="evaluationgroup" Value="170"/>
+	<Key Name="type" Value="swmm"/>
+	<Key Name="log" Value="3"/>
+</Section>
+  <Section Name="realtime">
+	<Key Name="start_timestamp" Value = "2017-10-1 00:00:00"/>     <!--FORMATTED for web provider timestamp (manual_definestart) or set to -1  / remove if runs generated auto) -->
+	<Key Name="loops" Value = "25"/>  <!--  number of times to loop  -->
+	<Key Name="trigger" Value = "manual_definestart"/>	<!-- Valid values include: manual_definestart, manual_currenttime, event_timeinterval,event_systemcondition>-->
+	<Key Name="offset" Value = "0"/>   <!-- offset from target time (minutes). Negative values indicate earlier/past times  --> 
+	<Key Name="duration" Value = "1440"/>  <!-- sim duration (min) --> 
+	<Key Name="ts_interval" Value = "300"/>  <!-- interval in seconds of the results data --> 
+	<Key Name="skip_ts_check" Value = "y"/>  <!--  y, n -->
+	<Key Name="ScenStart_OFF" Value = "2"/>  <!--  y, n -->
+	<Key Name="ScenEnd_OFF" Value = "3"/>  <!--  y, n -->
+	<Key Name="defined_run_dates_OFF" Value = "2017-01-01,  2017-01-02"/>
+</Section>
+  <Section Name="Environment">
+     <Key Name="ComputeHost" Value="Local" />    <!-- Valid values include: Local, AWS, Condor-->
+      <Key Name="CondorRequirements" Value="hasSWMM" /> start
+     <Key Name="transfer_input_files" Value="standard" />  <!--options: all,tuple of extensions (not implemented), or "standard" (typical, as defined in process scenario)-->
+    <!-- met: include platform specific _dictHPC overrides here?  -->
+    </Section>
+</Nini>

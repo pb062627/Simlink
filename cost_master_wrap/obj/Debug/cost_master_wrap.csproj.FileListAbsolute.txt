@@ -1,0 +1,17 @@
+\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\cost_master_wrap\bin\Debug\cost_master_wrap.dll
+\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\cost_master_wrap\bin\Debug\cost_master_wrap.pdb
+\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\cost_master_wrap\bin\Debug\assets.exe
+\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\cost_master_wrap\bin\Debug\DbContext.dll
+\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\cost_master_wrap\bin\Debug\cost_master.exe
+\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\cost_master_wrap\bin\Debug\engineering_economics.dll
+\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\cost_master_wrap\bin\Debug\assets.pdb
+\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\cost_master_wrap\bin\Debug\DbContext.pdb
+\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\cost_master_wrap\bin\Debug\cost_master.pdb
+\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\cost_master_wrap\bin\Debug\engineering_economics.pdb
+\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\cost_master_wrap\obj\Debug\cost_master_wrap.dll
+\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\cost_master_wrap\obj\Debug\cost_master_wrap.pdb
+\\hchfpp01\groups\WBG\Optimization\SimLink\code\simlink\cost_master_wrap\bin\Debug\assets.exe.config
+\\hchfpp01\groups\WBG\Optimization\SimLink\code\simlink\cost_master_wrap\bin\Debug\cost_master.exe.config
+\\hchfpp01\groups\WBG\Optimization\SimLink\code\simlink\cost_master_wrap\obj\Debug\cost_master_wrap.csprojAssemblyReference.cache
+\\hchfpp01\groups\WBG\Optimization\SimLink\code\simlink\cost_master_wrap\obj\Debug\cost_master_wrap.csproj.CoreCompileInputs.cache
+\\hchfpp01\groups\WBG\Optimization\SimLink\code\simlink\cost_master_wrap\obj\Debug\cost_master_wrap.csproj.CopyComplete

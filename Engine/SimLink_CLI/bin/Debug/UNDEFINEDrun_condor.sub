@@ -1,0 +1,9 @@
+universe = vanilla
+requirements = true
+arguments = 
+output = run.out
+error = run.err
+log = run.log
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = 

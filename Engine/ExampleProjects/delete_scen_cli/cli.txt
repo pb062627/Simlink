@@ -1,0 +1,1 @@
+-delete 52 -scen 249 -start 6 -config \\HCHFPP01\groups\WBG\Optimization\SimLink\code\simlink\Engine\ExampleProjects\delete_scen_cli\delete_config_chc_sqlserver.xml

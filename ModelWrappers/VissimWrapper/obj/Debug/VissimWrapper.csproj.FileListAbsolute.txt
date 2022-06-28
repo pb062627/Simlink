@@ -1,0 +1,15 @@
+O:\SimLink\code\simlink\ModelWrappers\VissimWrapper\bin\Debug\VissimSimWrapper.exe.config
+O:\SimLink\code\simlink\ModelWrappers\VissimWrapper\bin\Debug\VissimSimWrapper.exe
+O:\SimLink\code\simlink\ModelWrappers\VissimWrapper\bin\Debug\VissimSimWrapper.pdb
+O:\SimLink\code\simlink\ModelWrappers\VissimWrapper\obj\Debug\VissimSimWrapper.exe
+O:\SimLink\code\simlink\ModelWrappers\VissimWrapper\obj\Debug\VissimSimWrapper.pdb
+O:\SimLink\code\simlink\ModelWrappers\VissimWrapper\obj\Debug\Interop.VISSIMLIB.dll
+O:\SimLink\code\simlink\ModelWrappers\VissimWrapper\obj\Debug\VissimWrapper.csproj.ResolveComReference.cache
+O:\SimLink\code\simlink\ModelWrappers\VissimWrapper\obj\Debug\VissimWrapper.csprojResolveAssemblyReference.cache
+\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\ModelWrappers\VissimWrapper\bin\Debug\VissimSimWrapper.exe.config
+\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\ModelWrappers\VissimWrapper\bin\Debug\VissimSimWrapper.exe
+\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\ModelWrappers\VissimWrapper\bin\Debug\VissimSimWrapper.pdb
+\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\ModelWrappers\VissimWrapper\obj\Debug\VissimSimWrapper.exe
+\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\ModelWrappers\VissimWrapper\obj\Debug\VissimSimWrapper.pdb
+\\hchfpp01\groups\WBG\Optimization\SimLink\code\simlink\ModelWrappers\VissimWrapper\obj\Debug\VissimWrapper.csprojAssemblyReference.cache
+\\hchfpp01\groups\WBG\Optimization\SimLink\code\simlink\ModelWrappers\VissimWrapper\obj\Debug\VissimWrapper.csproj.CoreCompileInputs.cache

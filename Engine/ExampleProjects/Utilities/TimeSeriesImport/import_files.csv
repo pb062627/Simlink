@@ -1,0 +1,3 @@
+Results Label, Element Label,FieldCode,start_date,TS_Unit, TS_Interval, Filename
+x1, Import 1,111,1/1/2007,Day,15,\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\Engine\ExampleProjects\Utilities\TimeSeriesImport\test1.csv
+x2, Import 2,12345,1/1/2007,Year,3,\\hchfpp01\Groups\WBG\Optimization\SimLink\code\simlink\Engine\ExampleProjects\Utilities\TimeSeriesImport\test2.csv

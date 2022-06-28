@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Nini>
+<Section Name="simlink">
+	<Key Name="db_type" Value = "0"/>
+	<Key Name="db_location" Value="\\hchfpp01\Groups\WBG\MillCreek\Analysis\SimLink\simlink_millCreek.accdb"/>    <!-- simlink lite file dir -->
+	<Key Name="evaluationgroup" Value="167"/>
+	<Key Name="output_path" Value="c:\a\"/>
+	<Key Name="type" Value="swmm"/>
+	<Key Name="log" Value="3"/>
+</Section>
+  <Section Name="Environment">
+     <Key Name="ComputeHost" Value="Local" />    <!-- Valid values include: Local, AWS, Condor-->
+      <Key Name="CondorRequirements" Value="hasSWMM" /> start
+     <Key Name="transfer_input_files" Value="standard" />  <!--options: all,tuple of extensions (not implemented), or "standard" (typical, as defined in process scenario)-->
+    <!-- met: include platform specific _dictHPC overrides here?  -->
+    </Section>
+</Nini>

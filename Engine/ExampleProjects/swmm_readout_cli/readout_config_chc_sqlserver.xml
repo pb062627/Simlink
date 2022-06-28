@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Nini>
+<Section Name="simlink">
+   <Key Name="db_location" Value="Server = CHCAPP10\SQLEXPRESS; Initial Catalog = simlink_test1; Integrated Security = false; User ID = test1; Password=test1"/>
+   <!--Key Name="db_location" Value="...Simlink_EPANETDemo1\SimLink2.0_EPANETDemo1.mdb"/-->
+	<Key Name="run_type" Value="none. this will default to user defined runs."/>
+	<Key Name="evaluationgroup" Value="72"/>
+	<Key Name="type" Value="swmm"/>
+</Section>
+  </Nini>

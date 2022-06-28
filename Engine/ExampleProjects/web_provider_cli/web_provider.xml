@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Nini>
+<Section Name="simlink">
+	<Key Name="url" Value="https://dashboard.cincywsd.com/watershed_ops/pulldata/pulldata_test.py"/>
+	<Key Name="start_date" Value="2017-07-27 05:00:00"/>
+	<Key Name="end_date" Value="2017-07-27 12:00:00"/>
+	<Key Name="tag_names" Value="M2_28308017_930002_LI_EL_CALC,M2_28308017_930003_LI_EL_CALC"/>
+	<Key Name="file_out_OFF" Value="c:\a\test_web_provider.csv"/>
+</Section>
+  </Nini>

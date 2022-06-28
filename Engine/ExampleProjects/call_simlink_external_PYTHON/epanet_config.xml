@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Nini>
+<Section Name="simlink">
+  <Key Name="db_location" Value="C:\Users\Mason\Documents\WORK\norfolk\simlink\Simlink1_FromTemplate_161028_Norfolk.accdb"/>
+  <Key Name="db_location_TURNED_OFF_FOR_NOW" Value="Server = CHCAPP10\SQLEXPRESS; Initial Catalog = simlink_test1; Integrated Security = false; User ID = test1; Password=test1"/>
+	<Key Name="run_type" Value="UserDefinedRuns"/>
+	<Key Name="evaluationgroup" Value="1"/>
+	<Key Name="type" Value="epanet"/>
+	<Key Name="log" Value="4"/>
+</Section>
+  <Section Name="Environment">
+     <Key Name="ComputeHost" Value="Local" />    <!-- Valid values include: Local, AWS, Condor-->
+      <Key Name="CondorRequirements" Value="hasSWMM" /> 
+     <Key Name="transfer_input_files" Value="standard" />  <!--options: all,tuple of extensions (not implemented), or "standard" (typical, as defined in process scenario)-->
+    <!-- met: include platform specific _dictHPC overrides here?  -->
+    </Section>
+</Nini>

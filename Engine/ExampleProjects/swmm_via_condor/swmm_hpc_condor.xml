@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Nini>
+<Section Name="simlink">
+  <Key Name="db_location_TURNED_OFF_FOR_NOW" Value="C:\Users\Mason\Documents\WORK\LNC\Analysis\SimLink\SimLink2.0_LNC.mdb"/>
+  <Key Name="db_location" Value="Server = CHCAPP10\SQLEXPRESS; Initial Catalog = simlink_test1; Integrated Security = false; User ID = test1; Password=test1"/>
+	<Key Name="run_type" Value="UserDefinedRuns"/>
+	<Key Name="evaluationgroup" Value="52"/>
+	<Key Name="type" Value="swmm"/>
+	<Key Name="log" Value="4"/>
+</Section>
+  <Section Name="Environment">
+     <Key Name="ComputeHost" Value="Condor" />    <!-- Valid values include: Local, AWS, Condor-->
+      <Key Name="CondorRequirements" Value="hasSWMM" /> 
+     <Key Name="transfer_input_files" Value="standard" />  <!--options: all,tuple of extensions (not implemented), or "standard" (typical, as defined in process scenario)-->
+    <!-- met: include platform specific _dictHPC overrides here?  -->
+    </Section>
+</Nini>

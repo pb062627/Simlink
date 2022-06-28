@@ -1,0 +1,4 @@
+C:\Users\bmirghan\Desktop\Optimizatio Development\SFLA_in_C#\Optimization\bin\Release\Optimization.dll
+C:\Users\bmirghan\Desktop\Optimizatio Development\SFLA_in_C#\Optimization\bin\Release\Optimization.pdb
+C:\Users\bmirghan\Desktop\Optimizatio Development\SFLA_in_C#\Optimization\obj\Release\Optimization.dll
+C:\Users\bmirghan\Desktop\Optimizatio Development\SFLA_in_C#\Optimization\obj\Release\Optimization.pdb
